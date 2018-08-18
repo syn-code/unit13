@@ -12,5 +12,47 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+
+    $title = [
+        'title' => 'Welcome',
+    ];
+
+    return view('main', $title);
+});
+
+Route::get('/about', function () {
+
+    $title = [
+        'title' => 'About Us',
+    ];
+
+    return view('about', $title);
+});
+
+
+Route::get('/contact', function () {
+
+    $title = [
+        'title' => 'Contact Us',
+        'information' => [
+            'Recording',
+            'Rehearsal',
+            'Guitar Lessons',
+            'Drum Lessons',
+            'Studio Rental',
+            'General Question',
+        ],
+    ];
+
+    return view('contact', $title);
+});
+
+Route::get('/services', function(){
+
+    $title = [
+        'title' => 'Services'
+    ];
+
+    return view('services', $title);
+
 });
