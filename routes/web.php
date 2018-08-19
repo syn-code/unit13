@@ -56,3 +56,16 @@ Route::get('/services', function(){
     return view('services', $title);
 
 });
+
+Route::get('/reviews', function(){
+
+$title= [
+    'title' => 'Reviews'
+];
+
+return view('reviews', $title);
+
+});
+
+
+Route::post('reviews', 'ReviewsController@store');
