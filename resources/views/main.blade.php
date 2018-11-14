@@ -23,7 +23,7 @@
                             <li>- Fully Equipt</li>
                             <li>- £2 amp head rental per session</li>
                         </ul>
-                        <button type="button" class="btn btn-lg btn-block btn-outline-primary">More information</button>
+                    <a href="{{ url('services') }}" class="btn btn-lg btn-block btn-outline-dark">More information</a>
                       </div>
                     </div>
                     <div class="card shadow-sm">
@@ -36,7 +36,7 @@
                                 <li>- We offer recording for you or your band</li>
                                 <li>- Record from basic programming instruments to recording live sessions</li>
                               </ul>
-                              <button type="button" class="btn btn-lg btn-block btn-outline-primary">Get a quote</button>
+                            <a href="{{ url('contact') }}" class="btn btn-lg btn-block btn-outline-dark">Get a quote</a>
                             </div>
                           </div>
                           <div class="card  shadow-sm">
@@ -49,7 +49,7 @@
                                     <li>- Wanting to learn, but never knew where to start?</li>
                                     <li>- Book from half hour to hour sessions</li>
                                   </ul>
-                                  <button type="button" class="btn btn-lg btn-block btn-outline-primary">Book a Lesson</button>
+                                <a href="{{ url ('contact') }}" class="btn btn-lg btn-block btn-outline-dark">Book a Lesson</a>
                                 </div>
                               </div>
             </div>
